@@ -51,12 +51,6 @@ sections:
   match: "**/*"
 - type: heading
   label: Configuration
-- type: directory
-  path: exampleSite
-  label: Configuration
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
